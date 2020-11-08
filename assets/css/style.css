@@ -1,0 +1,106 @@
+:root {
+    --color-site:  #28a745;
+    --color-gray: #707070;
+    --color-card-title: #212529;
+    --color-subtitles: #707070;
+}
+
+
+body * {
+    margin:  0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cuppon-navbar {
+    background-color: var(--color-site);
+}
+
+.first-row-announce{
+    margin-top: 1.125rem;
+}
+
+.first-row-card{
+    margin-bottom: 1.875rem;
+}
+
+.card {
+    width: 17.375rem; 
+}
+.card-title {
+    line-height: 1.5;
+    font-size: 1.25rem;
+    color: var(--color-card-title);
+    margin-bottom: 0.688rem;
+    font-weight: 300;
+}
+
+.subtitle-card{
+    font-size : 0.813rem;
+    font-weight: 300;
+}
+
+.cuppon-location {
+    font-size : 1rem;    
+    font-weight: 300;
+}
+
+.cuppon-location,.subtitle-card{
+    color: var(--color-subtitles);
+}
+
+.card hr{
+    margin: 0 1rem;
+}
+
+.new-price{
+    color: var(--color-site);
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin-left: 0.688rem;
+}
+
+.old-price{
+    color: var(--color-gray);
+    font-size: 1rem;
+    line-height: 1.188rem;
+    font-weight: 300;
+}
+
+.cuppon-location i{
+    font-size: 0.575rem;
+}
+
+.mail-sender{
+    background-color: var(--color-site);
+}
+
+.mail-sender [type=text],[type=email]{
+    margin-bottom: 0.875rem;
+    width: 17.375rem;
+}
+
+.mail-sender h2{
+    font-size : 1.313rem;
+    margin: 0.938rem 0 1.563rem;
+}
+
+.btn-send{
+    width: 7.044rem;
+    font-size: 1rem;
+    line-height:1.5rem ;
+    color: var(--color-card-title);
+    font-weight: 500;
+    margin-bottom: 1.813rem;
+}
+
+.img-footer{
+    width: 5.125rem;
+    margin-bottom: 0.625rem;
+}
+
+footer p{
+    color: var(--color-gray);
+    margin-bottom: 1.375rem;
+}
